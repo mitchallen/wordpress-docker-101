@@ -1,0 +1,16 @@
+{
+  "name": "wordpress-docker-101",
+  "version": "1.0.0",
+  "description": "WordPress in Docker 101",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "browse": "open http://localhost:8000",
+    "//": "WARNING: the script below delete the volume, db, etc",
+    "nuclear:option": "docker-compose down"
+  },
+  "keywords": ["docker", "wordpress", "container", "static"],
+  "author": "Mitch Allen",
+  "license": "MIT"
+}
