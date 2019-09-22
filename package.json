@@ -8,7 +8,7 @@
     "docker:down": "docker-compose down",
     "browse": "open http://localhost:8000",
     "//": "WARNING: the script below delete the volume, db, etc",
-    "nuclear:option": "docker-compose down"
+    "nuclear:option": "docker-compose down --volumes"
   },
   "keywords": ["docker", "wordpress", "container", "static"],
   "author": "Mitch Allen",
